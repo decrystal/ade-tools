@@ -43,7 +43,6 @@
     "apify-client": "^1.3.0",
     "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.10",
-    "puppeteer": "^10.2.0",
     "request": "^2.88.2"
   },
   "gitHead": "343f807869e88b9e6ef78be3bcc2b9992bb14aaf"
