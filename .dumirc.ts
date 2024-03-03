@@ -94,5 +94,5 @@ export default defineConfig({
     logLevel: 'info',
     defaultSizes: 'parsed', // stat  // gzip
   },
-  sitemap: { hostname: 'https://github.com/decrystal/nicecoder' },
+  sitemap: { hostname: 'https://github.com/decrystal' },
 });

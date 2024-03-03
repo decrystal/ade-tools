@@ -9,7 +9,6 @@
     "敏感词过滤",
     "nicecode"
   ],
-  "author": "nicecoder",
   "homepage": "https://github.com/nicecoders/nicecode#readme",
   "license": "MIT",
   "main": "lib/index.js",
