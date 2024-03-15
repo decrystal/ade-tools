@@ -28,4 +28,4 @@ jobs:
       - name: Run ci
         run: |
           npm install
-          npm run deploy
+          npm run depoloy
