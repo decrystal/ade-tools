@@ -3,6 +3,7 @@ import path from 'path';
 
 export default defineConfig({
   title: 'nicecode',
+
   logo: 'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F5fd77539-818f-4ba7-90d2-6f1df6357ba1%2F28de1f18-edf0-40b0-a439-efd221112243%2FImage_Crop_Flip--256x256.ico?id=3580ea62-0d80-4534-8eeb-f3514fa78c2b&table=collection&spaceId=5fd77539-818f-4ba7-90d2-6f1df6357ba1&userId=2dd3a69b-902a-4df8-8ff9-3f0b2bc5bd6d&cache=v2',
   favicons: ['https://i.niupic.com/images/2021/06/07/9krN.png'],
   outputPath: 'docs-dist',
