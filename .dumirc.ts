@@ -13,6 +13,9 @@ export default defineConfig({
       github: 'https://github.com/nicecoders',
     },
   },
+
+
+
   headScripts: [
     `
     <!-- GrowingIO Analytics code version 2.1 -->
@@ -81,6 +84,8 @@ export default defineConfig({
     statsFilename: 'stats.json',
     logLevel: 'info',
     defaultSizes: 'parsed', // stat  // gzip
+
   },
-  sitemap: { hostname: 'https://decrystal.github.io/' },
+  base: '/nicecoders.github.io/',
+  // sitemap: { hostname: 'https://decrystal.github.io/nicecoders.github.io/' },
 });
