@@ -87,5 +87,6 @@ export default defineConfig({
 
   },
   base: '/nicecoders.github.io',
+  publicPath: '/nicecoders.github.io/',
   sitemap: { hostname: 'https://decrystal.github.io' },
 });
