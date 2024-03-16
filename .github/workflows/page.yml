@@ -27,7 +27,7 @@ jobs:
 
       - name: Deploy
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
         run: |
           git config --global user.email "2399274254lsc@gmail.com"
           git config --global user.name "decrystal"
