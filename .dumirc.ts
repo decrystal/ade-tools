@@ -86,6 +86,7 @@ export default defineConfig({
     defaultSizes: 'parsed', // stat  // gzip
 
   },
-  base: '/nicecoders.github.io',
+  base: 'nicecoders.github.io',
+  publicPath: 'nicecoders.github.io',
   sitemap: { hostname: 'https://decrystal.github.io' },
 });
