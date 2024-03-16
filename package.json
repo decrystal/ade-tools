@@ -7,6 +7,7 @@
   "exports": {
     "./package.json": "./package.json"
   },
+  "homepage": "https://decrystal.github.io",
   "scripts": {
     "build": "pnpm --filter=@nicecode/* run build",
     "release": "npm run build && npm publish",
