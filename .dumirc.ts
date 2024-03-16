@@ -13,6 +13,8 @@ export default defineConfig({
       github: 'https://github.com/nicecoders',
     },
   },
+  base: 'nicecoders.github.io',
+  publicPath: 'nicecoders.github.io',
   headScripts: [
     `
     <!-- GrowingIO Analytics code version 2.1 -->
