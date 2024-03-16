@@ -28,14 +28,17 @@ export default defineConfig({
     gio('send');
 
     <!-- End GrowingIO Analytics code version: 2.1 -->
-    `
+    `,
   ],
   alias: {
     '@nicecode/hooks': path.join(__dirname, 'packages/hooks/src'),
     '@nicecode/func': path.join(__dirname, 'packages/func/src'),
     '@nicecode/meta': path.join(__dirname, 'packages/meta/src'),
     '@nicecode/changelog': path.join(__dirname, 'packages/changelog/src'),
-    '@nicecode/sensitiveWords': path.join(__dirname, 'packages/sensitiveWords/src'),
+    '@nicecode/sensitiveWords': path.join(
+      __dirname,
+      'packages/sensitiveWords/src',
+    ),
     '@nicecode/cli': path.join(__dirname, 'packages/cli/src'),
     '@nicecode/player': path.join(__dirname, 'packages/player/src'),
     '@nicecode/funny': path.join(__dirname, 'packages/funny/src'),
@@ -52,8 +55,16 @@ export default defineConfig({
       { type: 'other', dir: 'packages/cli/src' },
       { type: 'other', subType: 'changelog', dir: 'packages/changelog/src' },
       { type: 'other', subType: 'commit', dir: 'packages/commit/src' },
-      { type: 'other', subType: 'commit-lint', dir: 'packages/commit-lint/src' },
-      { type: 'other', subType: 'sensitiveWords', dir: 'packages/sensitiveWords/src' },
+      {
+        type: 'other',
+        subType: 'commit-lint',
+        dir: 'packages/commit-lint/src',
+      },
+      {
+        type: 'other',
+        subType: 'sensitiveWords',
+        dir: 'packages/sensitiveWords/src',
+      },
       { type: 'other', subType: 'snippets', dir: 'packages/snippets/src' },
       { type: 'other', subType: 'player', dir: 'packages/player/src' },
       { type: 'other', subType: 'spider', dir: 'packages/spider/src' },
@@ -83,5 +94,5 @@ export default defineConfig({
     logLevel: 'info',
     defaultSizes: 'parsed', // stat  // gzip
   },
-  sitemap: { hostname: 'https://nicecoders.github.io' },
+  sitemap: { hostname: 'https://decrystal.github.io' },
 });
