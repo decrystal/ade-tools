@@ -27,5 +27,6 @@ jobs:
 
       - name: Run ci
         run: |
-          npm install
-          npm run depoloy
+          npm install -g pnpm
+          pnpm install
+          pnpm run depoloy
