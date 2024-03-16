@@ -87,6 +87,6 @@ export default defineConfig({
     defaultSizes: 'parsed', // stat  // gzip
 
   },
-  publicPath: '/ade/',
+  publicPath: '/ade-tools/',
   sitemap: { hostname: 'https://decrystal.github.io' },
 });
