@@ -96,5 +96,5 @@ export default defineConfig({
     logLevel: 'info',
     defaultSizes: 'parsed', // stat  // gzip
   },
-  sitemap: { hostname: 'https://decrystal.github.io' },
+  // sitemap: { hostname: 'https://decrystal.github.io' },
 });
