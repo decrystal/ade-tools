@@ -25,15 +25,16 @@ jobs:
           restore-keys: |
             cache-node-modules-
 
-      - name: Deploy
+
+
+
+
+      - name: Run ci
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
         run: |
           git config --global user.email "2399274254lsc@gmail.com"
           git config --global user.name "decrystal"
-
-      - name: Run ci
-        run: |
           npm install -g pnpm
           pnpm install
           pnpm run deploy
