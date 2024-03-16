@@ -1,7 +1,7 @@
 ---
 title: Nice Code - 精致、高效、与众不同
 hero:
-  title: Nice Code
+  title: Ade Code
   description: 致力提高工作效率和代码规范的工具库
   actions:
     - text: 快速上手
