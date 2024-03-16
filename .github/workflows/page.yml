@@ -26,9 +26,11 @@ jobs:
             cache-node-modules-
 
       - name: Deploy
-        uses: actions/labeler@v4
-        with:
-          repo-token: ${{ secrets.toekn }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.email "2399274254lsc@gmail.com"
+          git config --global user.name "decrystal"
 
       - name: Run ci
         run: |
